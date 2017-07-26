@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+}
+
+.main > div {
+  height: 100%;
+}
+
+.main > div > div {
+  height: 100%;
+}
+
+.slide {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+}
